@@ -1,5 +1,9 @@
 # REST API per el projecte CentreEnXarxa
-<hr>
+
+
+## Default Data:
+
+#### La classe GeronimoAPI implementa la interface CommandLineRunner, amb la qual cada cop que arranca es crean els rols necessaris (ROLE_AMDIN, ROLE_USER, ROLE_CARE) a mes de un usuari per defecte "root" amb le rol ROLE_ADMIN, que permet canviar els rols dels usuaris registrats.
 
 ## Endpoints:
 
