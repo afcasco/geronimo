@@ -1,4 +1,4 @@
-package cat.xtec.ioc.geronimo.service;
+package cat.xtec.ioc.geronimo.security.service;
 
 import cat.xtec.ioc.geronimo.model.User;
 

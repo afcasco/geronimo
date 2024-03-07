@@ -1,9 +1,10 @@
-package cat.xtec.ioc.geronimo.service;
+package cat.xtec.ioc.geronimo.security.service;
 
 import cat.xtec.ioc.geronimo.model.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -20,8 +21,10 @@ public class UserDetailsImpl implements UserDetails {
     @Serial
     private static final long serialVersionUID = 1L;
 
+    @Getter
     private Long id;
     private String username;
+    @Getter
     private String email;
 
     @JsonIgnore
